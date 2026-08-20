@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>About</string>
+			<key>FooterText</key>
+			<string>Unofficial educational simulator of Coldcard Q workflows. Not a hardware wallet. Not affiliated with, sponsored by, or endorsed by Coinkite. COLDCARD and the Q mark belong to their owners.
+
+Terms of Sale and Use for Coldcard hardware: coldcard.com/legal</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Version</string>
+			<key>Key</key>
+			<string>settings_about_version</string>
+			<key>DefaultValue</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Factory</string>
+			<key>FooterText</key>
+			<string>Unix simulator analogue of launching with -f (bootrom factory mode / RDP not 2). Once a bag number is programmed, factory mode ends even if this stays on. Enable, then open the app (or return to it) on a device with no bag number.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Factory Mode</string>
+			<key>Key</key>
+			<string>unix_factory_flag</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Acknowledgements</string>
+			<key>File</key>
+			<string>Acknowledgements</string>
+		</dict>
+	</array>
+</dict>
+</plist>

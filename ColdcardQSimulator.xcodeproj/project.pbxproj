@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10845D2E169D83E4A948968D /* NFCServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BA7B228762E15DDC579B1A /* NFCServices.swift */; };
+		1CD4A55E5D79840B12C40789 /* TrickPINActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656922A53A00B650A544A33 /* TrickPINActions.swift */; };
+		247848B1B7D6E7539E72787E /* KeyTeleportFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A81EFB9DAD1C034BA48B3 /* KeyTeleportFlow.swift */; };
+		2D9154F045F1EFB0B4CDF64B /* PhoneViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E1E458AAA063F112F26E44 /* PhoneViews.swift */; };
+		2E2AF1DA93D7F900D633A882 /* PaperWalletActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C3AB4179B51FF8C4DDFE6A /* PaperWalletActions.swift */; };
+		39032AB3232805A37E2CC10B /* NFCToolsActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9103862F074B699AFEE6C5 /* NFCToolsActions.swift */; };
+		463BA573002B8E969349B3B1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 240DEB55D94DCCDFB49D5C21 /* Settings.bundle */; };
+		5094903B891ADC7D446B7138 /* SpendingPolicyActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6AA9F0E8BB100F25631C6 /* SpendingPolicyActions.swift */; };
+		5096A59BA1C26D471274E3EA /* ImportXPRVActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C549EFC871794F49A3CC307 /* ImportXPRVActions.swift */; };
+		55FAFA569A049A0B3DC422BD /* ColdcardQSimulatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9624425CD445161C762D9 /* ColdcardQSimulatorApp.swift */; };
+		56EBFA50FCBCF417393854B9 /* ColdcardDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4E97BAC21D750831E8D6B /* ColdcardDeviceView.swift */; };
+		5D983584F07D9D19E2B705E7 /* LCDChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D1AB30C8F6D4A4CE0D719C /* LCDChrome.swift */; };
+		5DA59040AF1C48D199EE6451 /* CloneAndTapsigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7E62F41642A8B782BA5C2 /* CloneAndTapsigner.swift */; };
+		600A840C150BA62FFC784A37 /* WIFStoreSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D156EBC9FE23D1A35C8EA33 /* WIFStoreSupport.swift */; };
+		7BDF59146AF2692BEA9FF641 /* FactoryActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD139875BADECD2ADFBAC0A7 /* FactoryActions.swift */; };
+		82B21DCA1B58E49FB82194A1 /* PushTxActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28CDBB8565944163FA3E534 /* PushTxActions.swift */; };
+		8D544038FCCCE71A945C5C33 /* SimulatorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70CF0DA7868F202A8C7D5C8 /* SimulatorModels.swift */; };
+		9CB45240805C52EB8DADB6CE /* MultisigActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D82BB2E71099A62837E88A8 /* MultisigActions.swift */; };
+		AA87C59F883FEDC55363D109 /* DocumentsAndQR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40D932AE7B8B6B995C0716F /* DocumentsAndQR.swift */; };
+		AAE67DCBFF48B89D2BA5C6D6 /* ColdcardCore in Frameworks */ = {isa = PBXBuildFile; productRef = 614C9198D98E1E4E920FC213 /* ColdcardCore */; };
+		AD87E10F6478FDF57338B1A3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4E0121AE1CC4EE853FFBCBF6 /* PrivacyInfo.xcprivacy */; };
+		AF0D76A2E64B0C05AC68F4AD /* DoneSigningActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AE4ACC811DA24CA078B6C /* DoneSigningActions.swift */; };
+		B4DEBB3A4051670C093AB987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B6AEB3F0287CE92E1DAA1B /* Assets.xcassets */; };
+		B5230880FCA09175401CDEFA /* FirmwareMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D115874D5DD32F28313DBE /* FirmwareMenus.swift */; };
+		CB08590415072C3C24A55C2B /* SimulatorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4591024C51055EA508A22 /* SimulatorStore.swift */; };
+		E7AD56A01FEC7D92919C6566 /* ReadyToSignActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD37960C54BD1E19A65CE91 /* ReadyToSignActions.swift */; };
+		F6F0F006229B4D1C81D2FC00 /* DocumentsStandin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05817019E603DE2329E4628E /* DocumentsStandin.swift */; };
+		FA08C00D1615F6D459BC1FDD /* SecureServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8868B99E90867E3AB4FD574 /* SecureServices.swift */; };
+		FCE1BD8D5957A646E6C202C8 /* ScreenViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709509B3554FAEB7510C651 /* ScreenViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05817019E603DE2329E4628E /* DocumentsStandin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsStandin.swift; sourceTree = "<group>"; };
+		0B19924390D5CD430BC67F5A /* NOTICE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NOTICE.md; sourceTree = SOURCE_ROOT; };
+		0B96F9CFBE32D35DDED05CB2 /* ColdcardQSimulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text; path = ColdcardQSimulator.entitlements; sourceTree = SOURCE_ROOT; };
+		0CD37960C54BD1E19A65CE91 /* ReadyToSignActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyToSignActions.swift; sourceTree = "<group>"; };
+		12A6ACDE4805A2AD71E42E20 /* ColdcardQSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColdcardQSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		152CFE76A3B8386D6AFC1CA0 /* menu-tree.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "menu-tree.txt"; sourceTree = "<group>"; };
+		1ED6AA9F0E8BB100F25631C6 /* SpendingPolicyActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingPolicyActions.swift; sourceTree = "<group>"; };
+		2328E3ED424B73795DC44425 /* Docs/PROVENANCE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Docs/PROVENANCE.md; sourceTree = SOURCE_ROOT; };
+		240DEB55D94DCCDFB49D5C21 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		2435FF986475A6D2815EB08A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		28FDCA9B80734BE8581957E9 /* pin-entry.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "pin-entry.md"; sourceTree = "<group>"; };
+		2AABB3870AA66492BD773FBE /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
+		30FE55748BFCC77C46B41CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		388370774D5B52729720148A /* Bech32-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Bech32-LICENSE.md"; sourceTree = "<group>"; };
+		3EDE6FF17B8CF1796FCA5B7A /* Docs/VALIDATION-RESULTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Docs/VALIDATION-RESULTS.md"; sourceTree = SOURCE_ROOT; };
+		45F7E62F41642A8B782BA5C2 /* CloneAndTapsigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneAndTapsigner.swift; sourceTree = "<group>"; };
+		4E0121AE1CC4EE853FFBCBF6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
+		4E0A81EFB9DAD1C034BA48B3 /* KeyTeleportFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyTeleportFlow.swift; sourceTree = "<group>"; };
+		59FDE0C82F4B63BCC046440D /* COPYING-CC */ = {isa = PBXFileReference; lastKnownFileType = text; path = "COPYING-CC"; sourceTree = "<group>"; };
+		5D156EBC9FE23D1A35C8EA33 /* WIFStoreSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIFStoreSupport.swift; sourceTree = "<group>"; };
+		659CDEB07981F10746F09AEB /* Docs/ARCHITECTURE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Docs/ARCHITECTURE.md; sourceTree = SOURCE_ROOT; };
+		66D115874D5DD32F28313DBE /* FirmwareMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareMenus.swift; sourceTree = "<group>"; };
+		75B6AEB3F0287CE92E1DAA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D82BB2E71099A62837E88A8 /* MultisigActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultisigActions.swift; sourceTree = "<group>"; };
+		82A051261C30FAF4CE507FE7 /* Docs/preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Docs/preview.png; sourceTree = SOURCE_ROOT; };
+		8656922A53A00B650A544A33 /* TrickPINActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickPINActions.swift; sourceTree = "<group>"; };
+		94CA87B1D311BD81EB15002C /* bip39-vectors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "bip39-vectors.json"; sourceTree = "<group>"; };
+		9C402DC14D285AD917B1F295 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9C549EFC871794F49A3CC307 /* ImportXPRVActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportXPRVActions.swift; sourceTree = "<group>"; };
+		9E8AE4ACC811DA24CA078B6C /* DoneSigningActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneSigningActions.swift; sourceTree = "<group>"; };
+		9ED4E97BAC21D750831E8D6B /* ColdcardDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdcardDeviceView.swift; sourceTree = "<group>"; };
+		A5D1AB30C8F6D4A4CE0D719C /* LCDChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCDChrome.swift; sourceTree = "<group>"; };
+		A70CF0DA7868F202A8C7D5C8 /* SimulatorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorModels.swift; sourceTree = "<group>"; };
+		A8868B99E90867E3AB4FD574 /* SecureServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureServices.swift; sourceTree = "<group>"; };
+		AB1DE7499BFCA466DFB9057F /* Docs/Simulator-UI-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Docs/Simulator-UI-A.png"; sourceTree = SOURCE_ROOT; };
+		B5E9FBDA94CE80985217D9B2 /* Docs/Simulator-UI-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Docs/Simulator-UI-B.png"; sourceTree = SOURCE_ROOT; };
+		BBFE7D863885390C6038D80D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		BE9103862F074B699AFEE6C5 /* NFCToolsActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCToolsActions.swift; sourceTree = "<group>"; };
+		BFB4591024C51055EA508A22 /* SimulatorStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorStore.swift; sourceTree = "<group>"; };
+		C3C9624425CD445161C762D9 /* ColdcardQSimulatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdcardQSimulatorApp.swift; sourceTree = "<group>"; };
+		D3E1E458AAA063F112F26E44 /* PhoneViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViews.swift; sourceTree = "<group>"; };
+		D4A06BC7228B424E6AD07B1D /* generic-wallet-export.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "generic-wallet-export.md"; sourceTree = "<group>"; };
+		D709509B3554FAEB7510C651 /* ScreenViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViews.swift; sourceTree = "<group>"; };
+		DCA5612C970E0EBE8122C5C9 /* BIP39-NOTICE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "BIP39-NOTICE.md"; sourceTree = "<group>"; };
+		E28CDBB8565944163FA3E534 /* PushTxActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTxActions.swift; sourceTree = "<group>"; };
+		E40D932AE7B8B6B995C0716F /* DocumentsAndQR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsAndQR.swift; sourceTree = "<group>"; };
+		E44B04FA5E7342AC9C5F9E76 /* BitcoinCore-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "BitcoinCore-LICENSE.md"; sourceTree = "<group>"; };
+		E6450369D91435AB06AD33FE /* Docs/LICENSE-SCOPE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Docs/LICENSE-SCOPE.md"; sourceTree = SOURCE_ROOT; };
+		E6677E9F75CD4C311972D918 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		EE331946615350C33F74EFBB /* BigInt-LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "BigInt-LICENSE.md"; sourceTree = "<group>"; };
+		F0BA7B228762E15DDC579B1A /* NFCServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCServices.swift; sourceTree = "<group>"; };
+		F1088ED3D809770608CD4298 /* Docs/VALIDATION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Docs/VALIDATION.md; sourceTree = SOURCE_ROOT; };
+		F1C3AB4179B51FF8C4DDFE6A /* PaperWalletActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperWalletActions.swift; sourceTree = "<group>"; };
+		FD139875BADECD2ADFBAC0A7 /* FactoryActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryActions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DDAA9C0EA5B0E693F0D1C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE67DCBFF48B89D2BA5C6D6 /* ColdcardCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC80366F051D3622055250B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				45F7E62F41642A8B782BA5C2 /* CloneAndTapsigner.swift */,
+				9ED4E97BAC21D750831E8D6B /* ColdcardDeviceView.swift */,
+				C3C9624425CD445161C762D9 /* ColdcardQSimulatorApp.swift */,
+				E40D932AE7B8B6B995C0716F /* DocumentsAndQR.swift */,
+				05817019E603DE2329E4628E /* DocumentsStandin.swift */,
+				9E8AE4ACC811DA24CA078B6C /* DoneSigningActions.swift */,
+				FD139875BADECD2ADFBAC0A7 /* FactoryActions.swift */,
+				66D115874D5DD32F28313DBE /* FirmwareMenus.swift */,
+				9C549EFC871794F49A3CC307 /* ImportXPRVActions.swift */,
+				4E0A81EFB9DAD1C034BA48B3 /* KeyTeleportFlow.swift */,
+				A5D1AB30C8F6D4A4CE0D719C /* LCDChrome.swift */,
+				7D82BB2E71099A62837E88A8 /* MultisigActions.swift */,
+				F0BA7B228762E15DDC579B1A /* NFCServices.swift */,
+				BE9103862F074B699AFEE6C5 /* NFCToolsActions.swift */,
+				F1C3AB4179B51FF8C4DDFE6A /* PaperWalletActions.swift */,
+				D3E1E458AAA063F112F26E44 /* PhoneViews.swift */,
+				E28CDBB8565944163FA3E534 /* PushTxActions.swift */,
+				0CD37960C54BD1E19A65CE91 /* ReadyToSignActions.swift */,
+				D709509B3554FAEB7510C651 /* ScreenViews.swift */,
+				A8868B99E90867E3AB4FD574 /* SecureServices.swift */,
+				A70CF0DA7868F202A8C7D5C8 /* SimulatorModels.swift */,
+				BFB4591024C51055EA508A22 /* SimulatorStore.swift */,
+				1ED6AA9F0E8BB100F25631C6 /* SpendingPolicyActions.swift */,
+				8656922A53A00B650A544A33 /* TrickPINActions.swift */,
+				5D156EBC9FE23D1A35C8EA33 /* WIFStoreSupport.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		171D6C198AE40ED4A040BB61 = {
+			isa = PBXGroup;
+			children = (
+				0AC80366F051D3622055250B /* App */,
+				36581D5C146CF4CE2FF8052E /* Resources */,
+				438C294D2C0E5B6AB7630ADE /* Documentation */,
+				7F42ECE555BF7A3FE1ACC78C /* ThirdParty */,
+				27376E0C7D98A85EF39644D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27376E0C7D98A85EF39644D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12A6ACDE4805A2AD71E42E20 /* ColdcardQSimulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36581D5C146CF4CE2FF8052E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75B6AEB3F0287CE92E1DAA1B /* Assets.xcassets */,
+				4E0121AE1CC4EE853FFBCBF6 /* PrivacyInfo.xcprivacy */,
+				240DEB55D94DCCDFB49D5C21 /* Settings.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		438C294D2C0E5B6AB7630ADE /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				BBFE7D863885390C6038D80D /* README.md */,
+				E6677E9F75CD4C311972D918 /* LICENSE */,
+				0B19924390D5CD430BC67F5A /* NOTICE.md */,
+				30FE55748BFCC77C46B41CB5 /* Info.plist */,
+				0B96F9CFBE32D35DDED05CB2 /* ColdcardQSimulator.entitlements */,
+				2AABB3870AA66492BD773FBE /* Package.swift */,
+				659CDEB07981F10746F09AEB /* Docs/ARCHITECTURE.md */,
+				E6450369D91435AB06AD33FE /* Docs/LICENSE-SCOPE.md */,
+				2328E3ED424B73795DC44425 /* Docs/PROVENANCE.md */,
+				3EDE6FF17B8CF1796FCA5B7A /* Docs/VALIDATION-RESULTS.md */,
+				F1088ED3D809770608CD4298 /* Docs/VALIDATION.md */,
+				AB1DE7499BFCA466DFB9057F /* Docs/Simulator-UI-A.png */,
+				B5E9FBDA94CE80985217D9B2 /* Docs/Simulator-UI-B.png */,
+				82A051261C30FAF4CE507FE7 /* Docs/preview.png */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		7F42ECE555BF7A3FE1ACC78C /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				388370774D5B52729720148A /* Bech32-LICENSE.md */,
+				EE331946615350C33F74EFBB /* BigInt-LICENSE.md */,
+				DCA5612C970E0EBE8122C5C9 /* BIP39-NOTICE.md */,
+				E44B04FA5E7342AC9C5F9E76 /* BitcoinCore-LICENSE.md */,
+				F8FC66156A27C1F97486B185 /* ColdcardFirmware */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		F77ACD86A66DCF6EF5E61CDD /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				94CA87B1D311BD81EB15002C /* bip39-vectors.json */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		F8FC66156A27C1F97486B185 /* ColdcardFirmware */ = {
+			isa = PBXGroup;
+			children = (
+				59FDE0C82F4B63BCC046440D /* COPYING-CC */,
+				D4A06BC7228B424E6AD07B1D /* generic-wallet-export.md */,
+				9C402DC14D285AD917B1F295 /* LICENSE */,
+				152CFE76A3B8386D6AFC1CA0 /* menu-tree.txt */,
+				28FDCA9B80734BE8581957E9 /* pin-entry.md */,
+				2435FF986475A6D2815EB08A /* README.md */,
+				F77ACD86A66DCF6EF5E61CDD /* Reference */,
+			);
+			path = ColdcardFirmware;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0A286B672C616F3B2A13D4F /* ColdcardQSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B29651C5D60CB44D2936B9D /* Build configuration list for PBXNativeTarget "ColdcardQSimulator" */;
+			buildPhases = (
+				618F1122C97F2A4F1196BFB7 /* Sources */,
+				6DDAA9C0EA5B0E693F0D1C16 /* Frameworks */,
+				7228B63E0150643C7AB55AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColdcardQSimulator;
+			packageProductDependencies = (
+				614C9198D98E1E4E920FC213 /* ColdcardCore */,
+			);
+			productName = ColdcardQSimulator;
+			productReference = 12A6ACDE4805A2AD71E42E20 /* ColdcardQSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E88446A3F44B57E975BE17B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					F0A286B672C616F3B2A13D4F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 1B9DAA1375A387B9D21031EF /* Build configuration list for PBXProject "ColdcardQSimulator" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 171D6C198AE40ED4A040BB61;
+			packageReferences = (
+				AE4B75FD20F72DDE1EBCF411 /* XCLocalSwiftPackageReference "." */,
+			);
+			productRefGroup = 27376E0C7D98A85EF39644D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0A286B672C616F3B2A13D4F /* ColdcardQSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7228B63E0150643C7AB55AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DEBB3A4051670C093AB987 /* Assets.xcassets in Resources */,
+				AD87E10F6478FDF57338B1A3 /* PrivacyInfo.xcprivacy in Resources */,
+				463BA573002B8E969349B3B1 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		618F1122C97F2A4F1196BFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA59040AF1C48D199EE6451 /* CloneAndTapsigner.swift in Sources */,
+				56EBFA50FCBCF417393854B9 /* ColdcardDeviceView.swift in Sources */,
+				55FAFA569A049A0B3DC422BD /* ColdcardQSimulatorApp.swift in Sources */,
+				AA87C59F883FEDC55363D109 /* DocumentsAndQR.swift in Sources */,
+				F6F0F006229B4D1C81D2FC00 /* DocumentsStandin.swift in Sources */,
+				AF0D76A2E64B0C05AC68F4AD /* DoneSigningActions.swift in Sources */,
+				7BDF59146AF2692BEA9FF641 /* FactoryActions.swift in Sources */,
+				B5230880FCA09175401CDEFA /* FirmwareMenus.swift in Sources */,
+				5096A59BA1C26D471274E3EA /* ImportXPRVActions.swift in Sources */,
+				247848B1B7D6E7539E72787E /* KeyTeleportFlow.swift in Sources */,
+				5D983584F07D9D19E2B705E7 /* LCDChrome.swift in Sources */,
+				9CB45240805C52EB8DADB6CE /* MultisigActions.swift in Sources */,
+				10845D2E169D83E4A948968D /* NFCServices.swift in Sources */,
+				39032AB3232805A37E2CC10B /* NFCToolsActions.swift in Sources */,
+				2E2AF1DA93D7F900D633A882 /* PaperWalletActions.swift in Sources */,
+				2D9154F045F1EFB0B4CDF64B /* PhoneViews.swift in Sources */,
+				82B21DCA1B58E49FB82194A1 /* PushTxActions.swift in Sources */,
+				E7AD56A01FEC7D92919C6566 /* ReadyToSignActions.swift in Sources */,
+				FCE1BD8D5957A646E6C202C8 /* ScreenViews.swift in Sources */,
+				FA08C00D1615F6D459BC1FDD /* SecureServices.swift in Sources */,
+				8D544038FCCCE71A945C5C33 /* SimulatorModels.swift in Sources */,
+				CB08590415072C3C24A55C2B /* SimulatorStore.swift in Sources */,
+				5094903B891ADC7D446B7138 /* SpendingPolicyActions.swift in Sources */,
+				1CD4A55E5D79840B12C40789 /* TrickPINActions.swift in Sources */,
+				600A840C150BA62FFC784A37 /* WIFStoreSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7320F091D944CBFEF9A70ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ColdcardQSimulator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thalesmms.ColdcardQSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97EA59459CE2CD2C081B49D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H4Q6WN7NV5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ADBF2A7E925260D30804AD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = H4Q6WN7NV5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C30EBC9344CFB7A1C3F1AB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ColdcardQSimulator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thalesmms.ColdcardQSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B9DAA1375A387B9D21031EF /* Build configuration list for PBXProject "ColdcardQSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBF2A7E925260D30804AD46 /* Debug */,
+				97EA59459CE2CD2C081B49D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B29651C5D60CB44D2936B9D /* Build configuration list for PBXNativeTarget "ColdcardQSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30EBC9344CFB7A1C3F1AB0A /* Debug */,
+				7320F091D944CBFEF9A70ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		AE4B75FD20F72DDE1EBCF411 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		614C9198D98E1E4E920FC213 /* ColdcardCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4B75FD20F72DDE1EBCF411 /* XCLocalSwiftPackageReference "." */;
+			productName = ColdcardCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9E88446A3F44B57E975BE17B /* Project object */;
+}

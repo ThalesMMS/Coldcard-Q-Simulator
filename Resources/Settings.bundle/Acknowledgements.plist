@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Acknowledgements</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Licenses</string>
+			<key>FooterText</key>
+			<string>This app is multi-license and source-available. It is not OSI-approved open source as a whole.
+
+Coldcard-derived Swift adaptations, retained documentation and test data, and visual assets: MIT License with Commons Clause License Condition v1.0 (Coinkite), included at ThirdParty/ColdcardFirmware/COPYING-CC.
+
+Copyrightable original contributions: Apache License 2.0 (LICENSE-APACHE).
+
+Vendored BigInt: MIT (ThirdParty/BigInt-LICENSE.md).
+
+BIP-39, Bech32, and Bitcoin Core-derived serialization notices: ThirdParty/.
+
+Coldcard source and assets retain the Coinkite MIT + Commons Clause notice. See LICENSE, NOTICE.md, and Docs/LICENSE-SCOPE.md in the project.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

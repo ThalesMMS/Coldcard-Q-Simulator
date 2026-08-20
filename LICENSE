@@ -1,0 +1,63 @@
+Coldcard Q Simulator — Licensing Notice
+
+No single license applies to every file in this repository.
+
+1. Coldcard-derived material
+
+The Coldcard-derived documentation, test data, visual assets, and Swift
+adaptations identified in Docs/PROVENANCE.md are distributed under the Coinkite
+MIT License with the Commons Clause License Condition v1.0.
+
+The complete notice is included in:
+
+- ThirdParty/ColdcardFirmware/COPYING-CC
+- ThirdParty/ColdcardFirmware/LICENSE
+
+The Commons Clause condition does not grant the right to "Sell" the software
+as that term is defined in the notice. This restriction means that the affected
+material is source-available, but it is not offered under an OSI-approved open
+source license.
+
+2. Vendored and upstream material
+
+- Sources/BigInt is the source subset from attaswift/BigInt v6.0.0 and is
+  licensed under the MIT License in ThirdParty/BigInt-LICENSE.md.
+- The BIP-39 specification, English word list, and test-vector notices are in
+  ThirdParty/BIP39-NOTICE.md.
+- Bech32/Bech32m reference material from Pieter Wuille is licensed under the
+  MIT License in ThirdParty/Bech32-LICENSE.md.
+- Bitcoin Core-derived serialization material is licensed under the MIT
+  License in ThirdParty/BitcoinCore-LICENSE.md.
+
+Some of these upstream materials also entered this project through the
+Coldcard firmware snapshot and are therefore subject to the notices carried by
+that snapshot. See NOTICE.md and Docs/PROVENANCE.md for file-level scope.
+
+3. Original project contributions
+
+Copyright 2026 Thales Matheus Mendonça Santos
+
+To the extent that the copyright holder owns copyright or other licensable
+rights in them, original project contributions are licensed under the Apache
+License, Version 2.0. The complete text is included in LICENSE-APACHE.
+
+This Apache-2.0 grant applies only to original contributions. It does not
+relicense Coldcard-derived or third-party material. In mixed files, the
+copyrightable original changes are offered under Apache-2.0 while inherited
+portions retain their original licenses; use of the combined file must comply
+with every applicable term, including the Commons Clause condition.
+
+Docs/LICENSE-SCOPE.md provides the repository path and file-level map.
+
+4. AI-assisted development
+
+The project was developed with assistance from ChatGPT and OpenAI image
+tooling, with human direction, review, selection, and modification. OpenAI is
+not a licensor or copyright holder for this repository, and no affiliation,
+sponsorship, or endorsement by OpenAI is claimed.
+
+5. Trademarks and endorsement
+
+This project is unofficial and is not affiliated with, sponsored by, endorsed
+by, or security-reviewed by Coinkite. Copyright licenses do not grant trademark
+rights. COLDCARD and related brand elements belong to their respective owners.

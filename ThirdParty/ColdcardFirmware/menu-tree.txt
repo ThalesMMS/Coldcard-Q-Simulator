@@ -1,0 +1,724 @@
+[IF NO PIN SET]
+  Choose PIN Code
+  Advanced/Tools
+    View Identity
+    Paper Wallets
+    Perform Selftest
+    Secure Logout
+  Bag Number
+  Help
+---
+
+[IF BLANK WALLET]
+  New Seed Words
+    12 Words
+    24 Words
+    Advanced
+      12 Word Dice Roll
+      24 Word Dice Roll
+  Import Existing
+    12 Words
+    [SEED WORD ENTRY]
+    18 Words
+    [SEED WORD ENTRY]
+    24 Words
+    [SEED WORD ENTRY]
+    Scan QR Code [IF QR SCANNER]
+    Restore Backup
+    Clone Coldcard
+    Import XPRV
+    Tapsigner Backup
+    Seed XOR
+  Migrate Coldcard
+  Key Teleport (start)
+  Help
+  Advanced/Tools
+    View Identity
+    Temporary Seed
+      Generate Words
+        12 Words
+        24 Words
+        12 Word Dice Roll
+        24 Word Dice Roll
+      Import from QR Scan [IF QR SCANNER]
+      Import Words
+        12 Words
+        18 Words
+        24 Words
+        Import via NFC [IF NFC ENABLED]
+      Import XPRV
+      Tapsigner Backup
+      Coldcard Backup
+      Restore Seed XOR
+    Upgrade Firmware [IF NOT TMP SEED]
+      Show Version
+      From MicroSD
+      From VirtDisk [IF VIRTDISK ENABLED]
+    File Management
+      Verify Backup
+      List Files
+      Verify Sig File
+      NFC File Share [IF NFC ENABLED]
+      BBQr File Share [IF QR SCANNER]
+      QR File Share [IF QR SCANNER]
+      Format SD Card
+      Format RAM Disk [IF VIRTDISK ENABLED]
+    Key Teleport (start)
+    Paper Wallets
+    Perform Selftest
+    I Am Developer.
+      Serial REPL
+      Warm Reset
+      Restore Bkup
+      Reflash GPU [IF QWERTY KEYBOARD]
+    Secure Logout
+  Settings
+    Login Settings
+      Change Main PIN
+      Set Nickname
+      Scramble Keys
+      Kill Key
+      Login Countdown
+        Disabled
+         5 minutes
+        15 minutes
+        30 minutes
+         1 hour
+         2 hours
+         4 hours
+         8 hours
+        12 hours
+        24 hours
+        48 hours
+         3 days
+         1 week
+        28 days later
+      MicroSD 2FA [IF SECRET AND NOT TMP SEED]
+        Add Card
+        Check Card
+        Remove Card #1
+      Calculator Login [IF QWERTY KEYBOARD]
+        Default Off
+        Calculator Login
+      Test Login Now
+    Hardware On/Off
+      USB Port
+        Default On
+        Disable USB
+      Virtual Disk
+        Default Off
+        Enable
+        Enable & Auto
+      NFC Sharing
+        Default Off
+        Enable NFC
+    NFC Push Tx
+      coldcard.com
+      mempool.space
+      Custom URL...
+      Disable
+    Display Units
+      BTC
+      mBTC
+      bits
+      sats
+    Max Network Fee
+      10% (default)
+      25%
+      50%
+      no limit
+    Idle Timeout
+       2 minutes
+       5 minutes
+      15 minutes
+       1 hour
+       4 hours
+       8 hours
+       Never
+    Idle Timeout (on battery) [IF BATTERIES]
+       30 seconds
+       60 seconds
+       2 minutes
+       5 minutes
+      10 minutes
+      15 minutes
+      30 minutes
+       1 hour
+       4 hours
+       Never
+    LCD Brightness (on battery) [IF BATTERIES]
+      25%
+      50%
+      60%
+      70%
+      80%
+      90%
+      95% (default)
+      100%
+    Delete PSBTs
+      Default Keep
+      Delete PSBTs
+    Buried Settings
+      Home Menu XFP [IF SECRET AND NOT TMP SEED]
+        Only Tmp
+        Always Show
+      Menu Wrapping
+        Default
+        Always Wrap
+  [QR key shortcut] [IF QR SCANNER]
+---
+
+[NORMAL OPERATION]
+  Ready To Sign
+  Passphrase [IF WORD BASED SEED]
+    Restore Saved
+      c*******
+        [3A14F788]
+        Restore
+        Delete
+    Edit Phrase
+  Scan Any QR Code [IF QR SCANNER]
+  Start HSM Mode [IF HSM POLICY]
+  Address Explorer
+    Classic P2PKH
+     ↳ mtHSVByP9EYZ⋯Vm19gvpecb5R
+    P2SH-Segwit
+     ↳ 2NCAJ5wD4Gvm⋯NphNU8UYoEJv
+    Segwit P2WPKH
+     ↳ tb1qupyd58nd⋯vu9jtdyws9n9
+    Applications
+      Samourai
+        Post-mix
+        Pre-mix
+      Wasabi
+    Account Number
+    Custom Path
+    CC-2-of-4
+  Secure Notes & Passwords [IF ENBALED] [MAYBE]
+    1: note0
+      "note0"
+      View Note
+      Edit
+      Delete
+      Export
+      Sign Note Text
+    2: secret-PWD
+      "secret-PWD"
+      ↳ satoshi
+      ↳ abc.org
+      View Password
+      Send Password [MAYBE]
+      Export
+      Edit Metadata
+      Delete
+      Change Password
+      Sign Note Text
+    New Note
+    New Password
+    Export All
+    Sort By Title
+    Import
+  Type Passwords [MAYBE]
+  Seed Vault [MAYBE]
+     1: [7126EB3C]
+      [7126EB3C]
+      Use This Seed
+      Rename
+      Delete
+     2: [CCEE13B9]
+      [CCEE13B9]
+      Use This Seed
+      Rename
+      Delete
+     3: [03EE9989]
+      [03EE9989]
+      Use This Seed
+      Rename
+      Delete
+  Advanced/Tools
+    Backup
+      Backup System
+      Verify Backup
+      Restore Backup
+      Clone Coldcard
+    Export Wallet
+      Sparrow
+      Cove
+      Bitcoin Core
+      Nunchuk
+      Bull Bitcoin
+      Blue Wallet
+      Electrum Wallet
+      Wasabi Wallet
+      Fully Noded
+      Unchained
+      Theya
+      Bitcoin Safe
+      Zeus
+      Samourai Postmix
+      Samourai Premix
+      Descriptor
+      Generic JSON
+      Export XPUB
+        Segwit (BIP-84)
+        Classic (BIP-44)
+        P2WPKH/P2SH (BIP-49)
+        Master XPUB
+        Current XFP
+      Key Expression
+      Dump Summary
+    Upgrade Firmware [IF NOT TMP SEED]
+      Show Version
+      From MicroSD
+      From VirtDisk [IF VIRTDISK ENABLED]
+    File Management
+      Verify Backup
+      Backup System
+      Export Wallet
+        Sparrow
+        Cove
+        Bitcoin Core
+        Nunchuk
+        Bull Bitcoin
+        Blue Wallet
+        Electrum Wallet
+        Wasabi Wallet
+        Fully Noded
+        Unchained
+        Theya
+        Bitcoin Safe
+        Zeus
+        Samourai Postmix
+        Samourai Premix
+        Descriptor
+        Generic JSON
+        Export XPUB
+          Segwit (BIP-84)
+          Classic (BIP-44)
+          P2WPKH/P2SH (BIP-49)
+          Master XPUB
+          Current XFP
+        Key Expression
+        Dump Summary
+      Sign Text File
+      Batch Sign PSBT
+      Teleport Multisig PSBT
+      List Files
+      Verify Sig File
+      NFC File Share [IF NFC ENABLED]
+      BBQr File Share [IF QR SCANNER]
+      QR File Share [IF QR SCANNER]
+      Clone Coldcard
+      Format SD Card
+      Format RAM Disk [IF VIRTDISK ENABLED]
+    Secure Notes & Passwords [IF QWERTY KEYBOARD]
+      1: note0
+        "note0"
+        View Note
+        Edit
+        Delete
+        Export
+        Sign Note Text
+      2: secret-PWD
+        "secret-PWD"
+        ↳ satoshi
+        ↳ abc.org
+        View Password
+        Send Password [MAYBE]
+        Export
+        Edit Metadata
+        Delete
+        Change Password
+        Sign Note Text
+      New Note
+      New Password
+      Export All
+      Sort By Title
+      Import
+    Derive Seeds (BIP-85)
+    View Identity
+    Temporary Seed
+      Generate Words
+        12 Words
+        24 Words
+        12 Word Dice Roll
+        24 Word Dice Roll
+      Import from QR Scan [IF QR SCANNER]
+      Import Words
+        12 Words
+        18 Words
+        24 Words
+        Import via NFC [IF NFC ENABLED]
+      Import XPRV
+      Tapsigner Backup
+      Coldcard Backup
+      Restore Seed XOR
+    Key Teleport (start)
+    Spending Policy [IF SECRET AND NOT TMP SEED]
+      Single-Signer [IF SECRET AND NOT TMP SEED]
+      Co-Sign Multisig (CCC) [IF NOT TMP SEED]
+      HSM Mode [IF HSM AND SECRET]
+        Default Off
+        Enable
+      User Management [MAYBE]
+    Paper Wallets
+    WIF Store
+    NFC Tools [IF NFC ENABLED]
+      Sign PSBT
+      Show Address
+      Sign Message
+      Verify Sig File
+      Verify Address
+      File Share
+      Import Multisig
+      Push Transaction [IF PUSHTX ENABLED]
+    Danger Zone
+      Debug Functions
+      Seed Functions
+        View Seed Words
+        Seed XOR
+          Split Existing [IF WORD BASED SEED]
+          Restore Seed XOR
+        Destroy Seed [IF SECRET AND NOT TMP SEED]
+        Lock Down Seed [MAYBE]
+        Export SeedQR [IF WORD BASED SEED]
+      I Am Developer.
+        Serial REPL
+        Warm Reset
+        Restore Bkup
+        BKPW Override
+        Reflash GPU [IF QWERTY KEYBOARD]
+      Seed Vault [IF SECRET AND NOT TMP SEED]
+        Default Off
+        Enable
+      Perform Selftest
+      Set High-Water
+      Wipe HSM Policy [IF HSM POLICY]
+      Clear OV cache
+      Clear Address cache
+      Sighash Checks
+        Default: Block
+        Warn
+      Testnet Mode
+        Bitcoin
+        Testnet4
+        Regtest
+      AE Start Index
+        Default Off
+        Enable
+      B85 Idx Values
+        Default Off
+        Unlimited
+      Settings Space
+      MCU Key Slots
+      Bless Firmware
+      Wipe LFS
+      Nuke Device
+  Settings
+    Login Settings
+      Change Main PIN
+      Trick PINs [IF SECRET AND NOT TMP SEED]
+        Trick PINs:
+        ↳11-11
+          PIN 11-11
+          ↳Bricks CC
+          Hide Trick
+          Delete Trick
+          Change PIN
+        ↳333-3334
+          PIN 333-3334
+          ↳Duress Wallet
+          Activate Wallet
+          Hide Trick
+          Delete Trick
+          Change PIN
+        ↳WRONG PIN
+          After 3 wrong:
+          ↳Wipes seed
+          ↳Reboots
+          Hide Trick
+          Delete Trick
+        Add New Trick
+        Delete All
+      Set Nickname
+      Scramble Keys
+      Kill Key
+      Login Countdown
+        Disabled
+         5 minutes
+        15 minutes
+        30 minutes
+         1 hour
+         2 hours
+         4 hours
+         8 hours
+        12 hours
+        24 hours
+        48 hours
+         3 days
+         1 week
+        28 days later
+      MicroSD 2FA [IF SECRET AND NOT TMP SEED]
+        Add Card
+        Check Card
+        Remove Card #1
+      Calculator Login [IF QWERTY KEYBOARD]
+        Default Off
+        Calculator Login
+      Test Login Now
+    Hardware On/Off
+      USB Port
+        Default On
+        Disable USB
+      Virtual Disk
+        Default Off
+        Enable
+        Enable & Auto
+      NFC Sharing
+        Default Off
+        Enable NFC
+    Multisig Wallets
+      2/4: CC-2-of-4
+        "CC-2-of-4"
+        View Details
+        Delete
+        Coldcard Export
+        Electrum Wallet
+        Descriptors
+          View Descriptor
+          Export
+          Bitcoin Core
+      Import
+      Export XPUB
+      Create Airgapped
+      Trust PSBT?
+      Skip Checks?
+      Full Address View?
+        Partly Censor
+        Show Full
+      Unsorted Multisig?
+    NFC Push Tx
+      coldcard.com
+      mempool.space
+      Custom URL...
+      Disable
+    Display Units
+      BTC
+      mBTC
+      bits
+      sats
+    Max Network Fee
+      10% (default)
+      25%
+      50%
+      no limit
+    Idle Timeout
+       2 minutes
+       5 minutes
+      15 minutes
+       1 hour
+       4 hours
+       8 hours
+       Never
+    Idle Timeout (on battery) [IF BATTERIES]
+       30 seconds
+       60 seconds
+       2 minutes
+       5 minutes
+      10 minutes
+      15 minutes
+      30 minutes
+       1 hour
+       4 hours
+       Never
+    LCD Brightness (on battery) [IF BATTERIES]
+      25%
+      50%
+      60%
+      70%
+      80%
+      90%
+      95% (default)
+      100%
+    Delete PSBTs
+      Default Keep
+      Delete PSBTs
+    Keyboard EMU
+      Default Off
+      Enable
+    Buried Settings
+      Home Menu XFP [IF SECRET AND NOT TMP SEED]
+        Only Tmp
+        Always Show
+      Menu Wrapping
+        Default
+        Always Wrap
+  Secure Logout
+  [NFC key shortcut] [IF NFC ENABLED]
+    Sign PSBT
+    Show Address
+    Sign Message
+    Verify Sig File
+    Verify Address
+    File Share
+    Import Multisig
+    Push Transaction [IF PUSHTX ENABLED]
+---
+
+[FACTORY MODE]
+  Bag Me Now
+  Version: 5.x.x
+  DFU Upgrade
+  Ship W/O Bag
+  Debug Functions
+  Perform Selftest
+---
+
+[SSSP]
+  Ready To Sign
+  Passphrase [IF WORD BASED SEED & SSSP RELATED KEYS ENABLED]
+    Restore Saved
+      c*******
+        [3A14F788]
+        Restore
+        Delete
+    Edit Phrase
+  Scan Any QR Code [IF QR SCANNER]
+  Address Explorer
+    Classic P2PKH
+     ↳ mtHSVByP9EYZ⋯Vm19gvpecb5R
+    P2SH-Segwit
+     ↳ 2NCAJ5wD4Gvm⋯NphNU8UYoEJv
+    Segwit P2WPKH
+     ↳ tb1qupyd58nd⋯vu9jtdyws9n9
+    Applications
+      Samourai
+        Post-mix
+        Pre-mix
+      Wasabi
+    Account Number
+    Custom Path
+    CC-2-of-4
+  Secure Notes & Passwords[IF ENABLED & SSSP ALLOW NOTES]
+    1: note0
+      "note0"
+      View Note
+      Sign Note Text
+    2: secret-PWD
+      "secret-PWD"
+      ↳ satoshi
+      ↳ abc.org
+      View Password
+      Send Password [MAYBE]
+      Sign Note Text
+  Type Passwords [MAYBE]
+  Seed Vault[IF ENABLED & SSSP RELATED KEYS ENABLED]
+     1: [7126EB3C]
+      [7126EB3C]
+      Use This Seed
+     2: [CCEE13B9]
+      [CCEE13B9]
+      Use This Seed
+     3: [03EE9989]
+      [03EE9989]
+      Use This Seed
+  Advanced/Tools
+    File Management
+      Sign Text File
+      Batch Sign PSBT
+      List Files
+      Export Wallet
+        Sparrow
+        Cove
+        Bitcoin Core
+        Nunchuk
+        Bull Bitcoin
+        Blue Wallet
+        Electrum Wallet
+        Wasabi Wallet
+        Fully Noded
+        Unchained
+        Theya
+        Bitcoin Safe
+        Zeus
+        Samourai Postmix
+        Samourai Premix
+        Descriptor
+        Generic JSON
+        Export XPUB
+          Segwit (BIP-84)
+          Classic (BIP-44)
+          P2WPKH/P2SH (BIP-49)
+          Master XPUB
+          Current XFP
+        Key Expression
+        Dump Summary
+      Verify Sig File
+      NFC File Share [IF NFC ENABLED]
+      BBQr File Share [IF QR SCANNER]
+      QR File Share [IF QR SCANNER]
+      Format SD Card
+      Format RAM Disk [IF VIRTDISK ENABLED]
+    Export Wallet
+      Sparrow
+      Cove
+      Bitcoin Core
+      Nunchuk
+      Bull Bitcoin
+      Blue Wallet
+      Electrum Wallet
+      Wasabi Wallet
+      Fully Noded
+      Unchained
+      Theya
+      Bitcoin Safe
+      Zeus
+      Samourai Postmix
+      Samourai Premix
+      Descriptor
+      Generic JSON
+      Export XPUB
+        Segwit (BIP-84)
+        Classic (BIP-44)
+        P2WPKH/P2SH (BIP-49)
+        Master XPUB
+        Current XFP
+      Key Expression
+      Dump Summary
+    Teleport Multisig PSBT [MAYBE]
+    View Identity
+    Temporary Seed [IF SSSP RELATED KEYS ENABLED]
+      Import from QR Scan [IF QR SCANNER]
+      Import Words
+        12 Words
+        18 Words
+        24 Words
+        Import via NFC [IF NFC ENABLED]
+      Import XPRV
+      Tapsigner Backup
+      Coldcard Backup
+      Restore Seed XOR
+    Paper Wallets
+    WIF Store
+    NFC Tools [IF NFC ENABLED]
+      Sign PSBT
+      Show Address
+      Sign Message
+      Verify Sig File
+      Verify Address
+      File Share
+      Push Transaction [IF PUSHTX ENABLED]
+    Show Firmware Version
+    Destroy Seed [IF SECRET AND NOT TMP SEED]
+  Secure Logout
+  EXIT TEST DRIVE [MAYBE]
+  [NFC key shortcut] [IF NFC ENABLED]
+    Sign PSBT
+    Show Address
+    Sign Message
+    Verify Sig File
+    Verify Address
+    File Share
+    Push Transaction [IF PUSHTX ENABLED]
+---
+
